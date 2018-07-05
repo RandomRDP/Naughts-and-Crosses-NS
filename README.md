@@ -1,7 +1,7 @@
 # Naughts & Crosses
 Homebrew Naughts & Crosses for Nintendo Switch
 
-Based upon SH3RLOCK's Tic Tac Toe V1
+Based upon [SH3RLOCK's Tic Tac Toe Alpha](https://gbatemp.net/threads/alpha-tictactoe-for-nx.497196/)
 
 ## Controls
 
@@ -10,9 +10,10 @@ Based upon SH3RLOCK's Tic Tac Toe V1
 + 	B - Restart Game
 + 	\+/-  - Exit
 
-## Installing
+## Running
 
 1. Make sure you are running [switch CFW](https://t3chnolog1c.github.io/SwitchGuide/)
-2. Unzip 'Naughts-and-Crosses' and place into 'switch' folder on your SD card.
+2. Unzip 'Naughts & Crosses' and place into 'switch' folder on your SD card.
+3. Launch from hbmenu
 
-Working as of 05/07/2018
+05/07/2018
