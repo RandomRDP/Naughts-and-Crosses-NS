@@ -3169,7 +3169,7 @@ LOAD c:/devkitpro/devkita64/bin/../lib/gcc/aarch64-none-elf/8.1.0/../../../../aa
 END GROUP
 LOAD c:/devkitpro/devkita64/bin/../lib/gcc/aarch64-none-elf/8.1.0/pic/crtend.o
 LOAD c:/devkitpro/devkita64/bin/../lib/gcc/aarch64-none-elf/8.1.0/pic/crtn.o
-OUTPUT(C:/Users/ryan/Documents/GitHub/Naughts-and-Crosses-NS/Naughts_and_Crosses/out/Naughts_and_Crosses.elf elf64-littleaarch64)
+OUTPUT(C:/Users/ryan/Documents/GitHub/Naughts-and-Crosses-NS/Naughts-and-Crosses/out/Naughts-and-Crosses.elf elf64-littleaarch64)
 
 .debug_ranges   0x0000000000000000     0xf2b0
  .debug_ranges  0x0000000000000000      0x480 main.o

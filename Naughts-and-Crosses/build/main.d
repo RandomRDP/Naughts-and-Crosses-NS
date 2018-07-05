@@ -1,5 +1,5 @@
 main.o: \
- C:/Users/ryan/Documents/GitHub/Naughts-and-Crosses-NS/Naughts_and_Crosses/source/main.c \
+ C:/Users/ryan/Documents/GitHub/Naughts-and-Crosses-NS/Naughts-and-Crosses/source/main.c \
  C:/devkitPro/libnx/include/switch.h \
  C:/devkitPro/libnx/include/switch/types.h \
  C:/devkitPro/libnx/include/switch/result.h \
