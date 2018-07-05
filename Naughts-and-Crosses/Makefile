@@ -29,7 +29,7 @@ include $(DEVKITPRO)/libnx/switch_rules
 #     - icon.jpg
 #     - <libnx folder>/default_icon.jpg
 #---------------------------------------------------------------------------------
-TARGET		:=	/out/$(notdir $(CURDIR))
+TARGET		:=	out/$(notdir $(CURDIR))
 OUTDIR		:=	out
 BUILD		:=	build
 SOURCES		:=	source
@@ -37,8 +37,8 @@ DATA		:=	data
 INCLUDES	:=	include
 EXEFS_SRC	:=	exefs_src
 
-APP_TITLE 	:=	Naughts and Crosses
-APP_AUTHOR	:=	RandomRDP (Built upon SH3RLOCK's Tic Tac Toe)
+APP_TITLE 	:=	Naughts & Crosses
+APP_AUTHOR	:=	RandomRDP (Original by SH3RLOCK's)
 APP_VERSION	:=	1.0.1
 
 #---------------------------------------------------------------------------------
