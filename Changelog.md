@@ -1,5 +1,8 @@
 ## Changelog
 
+### V1.0.2
+- Fixed restart bug
+
 ### V1.0.1
 - Fixed cursor movement
 - added joystick support
