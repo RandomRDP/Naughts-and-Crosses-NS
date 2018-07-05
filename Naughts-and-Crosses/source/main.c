@@ -50,8 +50,7 @@ int main(int argc, char **argv)
     // Needed Vars
     int player = 1;
     int points[9] = {0,0,0,0,0,0,0,0,0};
-    int win;
-    win = 0;
+    int win = 0;
 
     u32 focused = 3;
     int start = 0;
@@ -64,7 +63,7 @@ int main(int argc, char **argv)
         u32 kDown = hidKeysDown(CONTROLLER_P1_AUTO);
 
         // Check inputs and move focused field/cursor
-        if (kDown & KEY_PLUS) break; // break in order to return to hbmenu
+        if (kDown & (KEY_PLUS || KEY_MINUS )) break; // break in order to return to hbmenu
         else if (kDown & KEY_UP) {
             if (focused % 3 != 0) {
 				focused -= 1;
