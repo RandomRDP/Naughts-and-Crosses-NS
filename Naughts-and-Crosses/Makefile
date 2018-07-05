@@ -39,7 +39,7 @@ EXEFS_SRC	:=	exefs_src
 
 APP_TITLE 	:=	Naughts & Crosses
 APP_AUTHOR	:=	RandomRDP (Original by SH3RLOCK's)
-APP_VERSION	:=	1.0.1
+APP_VERSION	:=	1.0.2
 
 #---------------------------------------------------------------------------------
 # options for code generation

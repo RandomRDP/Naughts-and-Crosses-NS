@@ -63,10 +63,10 @@ int main(int argc, char **argv)
         u32 kDown = hidKeysDown(CONTROLLER_P1_AUTO);
 
         // Check inputs and move focused field/cursor
-        if (kDown & (KEY_PLUS || KEY_MINUS )) break; // break in order to return to hbmenu
+        if ((kDown & KEY_PLUS) || (kDown & KEY_MINUS )) break; // break in order to return to hbmenu
         else if (kDown & KEY_UP) {
             if (focused % 3 != 0) {
-				focused -= 1;
+				focused--;
 			} else {
 				focused += 2;
 			}	
@@ -87,7 +87,7 @@ int main(int argc, char **argv)
         }
         else if (kDown & KEY_DOWN)  {
             if (focused % 3 != 2) {
-				focused += 1;
+				focused++;
 			} else {
 				focused -= 2;
 			}	
@@ -102,17 +102,16 @@ int main(int argc, char **argv)
             memset(points, 0, sizeof points);
         }
         else if (kDown & KEY_JOYCON_RIGHT) { // Pressed A
-            if(points[focused] == 0) { // Set field if field isn't set yet
-                points[focused] = player;
-                player %= 2;
-                player += 1;
-            }
             if(win) { // if game's ended, A-Button restarts the game
-                memset(points, 0, sizeof points);
                 win = 0;
                 player = 1;
                 focused = 4;
-            }
+				memset(points, 0, sizeof points);
+            } else if(points[focused] == 0) { // Set field if field isn't set yet
+                points[focused] = player;
+                player %= 2;
+                player += 1;
+            }			
         }
         if (focused > 8 ) focused = 4;
 		if (focused < 0 ) focused = 7;
