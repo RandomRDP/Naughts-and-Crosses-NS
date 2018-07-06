@@ -12,7 +12,7 @@ Based upon [SH3RLOCK's Tic Tac Toe Alpha](https://gbatemp.net/threads/alpha-tict
 
 ## Running
 
-1. Make sure you are running [switch CFW](https://t3chnolog1c.github.io/SwitchGuide/) (Don't use the downloads but the guide is good)
+1. Make sure you are running [switch CFW](https://t3chnolog1c.github.io/SwitchGuide/) 
 2. Unzip '[Naughts & Crosses](https://github.com/RandomRDP/Naughts-and-Crosses-NS/raw/master/Naughts%20%26%20Crosses.7z)' and place into 'switch' folder on your SD card.
 3. Launch from hbmenu
 
